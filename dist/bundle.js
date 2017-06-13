@@ -27341,7 +27341,7 @@ module.exports = {
 let {OmiClient} = __webpack_require__(140)
 let {signer} = __webpack_require__(72)
 
-let sawtoothRestApiBaseUrl = 'http://localhost:8080'
+let sawtoothRestApiBaseUrl = 'http://localhost:8000'
 let privateKey = signer.makePrivateKey()
 
 let client = new OmiClient(sawtoothRestApiBaseUrl, privateKey)

@@ -18,7 +18,7 @@
 let {OmiClient} = require('omi-client')
 let {signer} = require('sawtooth-sdk')
 
-let sawtoothRestApiBaseUrl = 'http://localhost:8080'
+let sawtoothRestApiBaseUrl = 'http://localhost:8000'
 let privateKey = signer.makePrivateKey()
 
 let client = new OmiClient(sawtoothRestApiBaseUrl, privateKey)
